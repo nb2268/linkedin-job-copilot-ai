@@ -1,0 +1,15 @@
+# Logs & Environment
+*.log
+.env
+__pycache__/
+*.pyc
+
+# Local application history
+applied_jobs_history.json
+
+# System & IDE files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

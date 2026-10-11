@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nikita Banwankar - Resume</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 8mm 12mm;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: 1.35;
+      color: #1a1a1a;
+      background: #ffffff;
+      padding: 10px 20px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .header h1 {
+      font-size: 18pt;
+      letter-spacing: 0.5px;
+      font-weight: 700;
+      color: #000000;
+      margin-bottom: 2px;
+    }
+    .contact {
+      font-size: 8.5pt;
+      color: #333333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .section-title {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #000000;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #000000;
+      padding-bottom: 1px;
+      margin-top: 7px;
+      margin-bottom: 4px;
+      letter-spacing: 0.3px;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 9pt;
+    }
+    .entry-sub {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-style: italic;
+      font-size: 8.5pt;
+      color: #333333;
+      margin-bottom: 2px;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 9pt;
+    }
+    .project-tech {
+      font-style: italic;
+      font-size: 8pt;
+      color: #444444;
+      margin-bottom: 1px;
+    }
+    ul {
+      margin-left: 15px;
+      margin-bottom: 3px;
+    }
+    li {
+      margin-bottom: 1.5px;
+      font-size: 8.5pt;
+      line-height: 1.3;
+    }
+    .skills-grid p {
+      font-size: 8.5pt;
+      margin-bottom: 2px;
+    }
+    .skills-grid strong {
+      color: #111111;
+    }
+    @media print {
+      body {
+        padding: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>NIKITA BANWANKAR</h1>
+    <div class="contact">
+      <span>Pune, Maharashtra, India</span>
+      <span>•</span>
+      <span>+91 9307490581</span>
+      <span>•</span>
+      <span><a href="mailto:nikitabanwankar@gmail.com">nikitabanwankar@gmail.com</a></span>
+      <span>•</span>
+      <span><a href="https://linkedin.com/in/nb2268" target="_blank">linkedin.com/in/nb2268</a></span>
+      <span>•</span>
+      <span><a href="https://nb2268.github.io/portfolio" target="_blank">nb2268.github.io/portfolio</a></span>
+      <span>•</span>
+      <span><a href="https://github.com/nb2268" target="_blank">github.com/nb2268</a></span>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section-title">Professional Summary</div>
+  <p style="font-size: 8.5pt; text-align: justify;">
+    Entry-level AI & Data Science engineer currently working as an AI Engineer at a startup, with hands-on skills in Python, SQL, Power BI, Advanced Excel, and intelligent agent automation. Open to <strong>Full-Time</strong> and <strong>Internship</strong> opportunities (Work from Home / Remote / Pune).
+  </p>
+
+  <!-- EDUCATION -->
+  <div class="section-title">Education</div>
+  <div class="entry-header">
+    <span>Bachelor of Engineering in Artificial Intelligence & Data Science</span>
+    <span>Aug 2023 – Jun 2026</span>
+  </div>
+  <div class="entry-sub">
+    <span>Sant Gadge Baba Amravati University (SGBAU), Amravati, India</span>
+    <span>CGPA: 7.65</span>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <p><strong>AI & Machine Learning:</strong> Generative AI, Agentic AI, Prompt Engineering, Google Gemini API, Scikit-Learn, Pandas, NumPy, NLP</p>
+    <p><strong>Data & Analytics:</strong> Power BI (DAX, Power Query, Data Modeling, Data Visualization), Advanced Excel (Pivot Tables, VLOOKUP, HLOOKUP), SQL (MySQL)</p>
+    <p><strong>Software & Automation:</strong> Python, JavaScript, Chrome Extension APIs (Manifest V3), DOM Automation, Django, HTML5, CSS3, Git, GitHub</p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section-title">Professional Experience</div>
+  <div class="entry-header">
+    <span>AI Engineer</span>
+    <span>Aug 2026 – Present</span>
+  </div>
+  <div class="entry-sub">
+    <span>Tanglobus (Startup)</span>
+    <span>Pune, India</span>
+  </div>
+  <ul>
+    <li>Developing AI and machine learning solutions using Python, supporting product development in a fast-paced environment.</li>
+    <li>Handling end-to-end data preparation, model training, and performance evaluation to deliver milestones on schedule.</li>
+  </ul>
+
+  <!-- PROJECTS -->
+  <div class="section-title">Key Projects</div>
+
+  <div>
+    <div class="project-header">
+      <span>LinkedIn Job Copilot AI (Browser Agent & Automation)</span>
+      <span>Oct 2026</span>
+    </div>
+    <div class="project-tech">JavaScript, Chrome Manifest V3, DOM Automation, Python, Google Gemini AI</div>
+    <ul>
+      <li>Architected an AI browser agent parsing LinkedIn job postings to compute real-time resume match scores and skill gaps.</li>
+      <li>Implemented React synthetic event automation to auto-fill multi-step Easy Apply applications with human review, cutting application time by 80%.</li>
+      <li>Integrated LLM APIs for automated generation of tailored cover notes and responses to employer screening questions.</li>
+    </ul>
+  </div>
+
+  <div style="margin-top: 3px;">
+    <div class="project-header">
+      <span>AI-Powered Multi-Domain Career Guidance System</span>
+      <span>Apr 2026</span>
+    </div>
+    <div class="project-tech">Python, Machine Learning, NLP, Scikit-Learn, Pandas, NumPy, Tkinter</div>
+    <ul>
+      <li>Developed an AI-based system that recommends optimal career paths from user skills, education, and interests.</li>
+      <li>Applied NLP text preprocessing and supervised classification to perform feature engineering and improve prediction accuracy.</li>
+    </ul>
+  </div>
+
+  <div style="margin-top: 3px;">
+    <div class="project-header">
+      <span>Uber Data Analytics</span>
+      <span>Mar 2025</span>
+    </div>
+    <div class="project-tech">Python, Pandas, Matplotlib, Seaborn, SQL, MySQL</div>
+    <ul>
+      <li>Performed end-to-end exploratory analysis of ride datasets: data cleaning and pattern visualization with Matplotlib & Seaborn.</li>
+      <li>Identified ride demand trends and peak-hour traffic bottlenecks to support data-driven business decisions.</li>
+    </ul>
+  </div>
+
+  <!-- INTERNSHIP -->
+  <div class="section-title">Internship Experience</div>
+  <div class="entry-header">
+    <span>Application Development Intern</span>
+    <span>Android (Java, XML)</span>
+  </div>
+  <ul>
+    <li>Developed native Android application features using Java and XML, improving user interaction and responsiveness.</li>
+  </ul>
+
+  <!-- CERTIFICATIONS & SOFT SKILLS -->
+  <div class="section-title">Certifications & Soft Skills</div>
+  <p style="font-size: 8.5pt;">
+    <strong>Certifications:</strong> Internship Certificate - Application Development | Course Completion Certificate<br>
+    <strong>Soft Skills:</strong> Effective Communication, Team Collaboration, Attention to Detail, Time Management, Fast Learner
+  </p>
+
+</body>
+</html>
