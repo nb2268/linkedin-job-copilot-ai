@@ -4,7 +4,7 @@ An intelligent, safety-first **Chrome Extension** that acts as your personal job
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features 
 
 1. **Native Chrome Side Panel Integration**:
    - Opens seamlessly alongside LinkedIn jobs without blocking your view or opening separate windows.
