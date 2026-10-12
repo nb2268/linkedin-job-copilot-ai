@@ -31,7 +31,7 @@ SEARCH_KEYWORDS = [
 CANDIDATE_PROFILE = {
     "name": "Nikita Banwankar",
     "email": "nikitabanwankar@gmail.com",
-    "phone": "+91 9307490581",
+    "phone": "+91 9XXXXXXXXX",
     "linkedin": "https://linkedin.com/in/nb2268",
     "github": "https://github.com/nb2268",
     "portfolio": "https://nb2268.github.io/portfolio",

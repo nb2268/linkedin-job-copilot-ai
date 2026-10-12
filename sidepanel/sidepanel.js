@@ -5,7 +5,7 @@ let currentJob = null;
 let userProfile = {
   name: "Nikita Banwankar",
   email: "nikitabanwankar@gmail.com",
-  phone: "+91 9307490581",
+  phone: "+91 9XXXXXXXXX",
   linkedinUrl: "https://linkedin.com/in/nb2268",
   portfolioUrl: "https://nb2268.github.io/portfolio",
   githubUrl: "https://github.com/nb2268",
