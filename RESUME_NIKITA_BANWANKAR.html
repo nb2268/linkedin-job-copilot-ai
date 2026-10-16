@@ -6,7 +6,7 @@
   <style>
     @page {
       size: A4 portrait;
-      margin: 6mm 10mm;
+      margin: 5mm 8mm;
     }
     *, *::before, *::after {
       box-sizing: border-box;
@@ -15,11 +15,11 @@
     }
     body {
       font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-      font-size: 8.5pt;
-      line-height: 1.28;
+      font-size: 8.2pt;
+      line-height: 1.25;
       color: #1a1a1a;
       background: #ffffff;
-      padding: 4px 12px;
+      padding: 2px 10px;
       max-width: 820px;
       margin: 0 auto;
     }
@@ -29,32 +29,32 @@
     }
     .header {
       text-align: center;
-      margin-bottom: 5px;
+      margin-bottom: 4px;
     }
     .header h1 {
-      font-size: 16pt;
+      font-size: 15.5pt;
       letter-spacing: 0.5px;
       font-weight: 700;
       color: #0f172a;
-      margin-bottom: 2px;
+      margin-bottom: 1px;
     }
     .contact {
-      font-size: 8pt;
+      font-size: 7.8pt;
       color: #334155;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 7px;
     }
     .section-title {
-      font-size: 9pt;
+      font-size: 8.7pt;
       font-weight: 700;
       color: #0f172a;
       text-transform: uppercase;
       border-bottom: 1.2px solid #0f172a;
       padding-bottom: 1px;
-      margin-top: 5px;
-      margin-bottom: 3px;
+      margin-top: 4px;
+      margin-bottom: 2px;
       letter-spacing: 0.3px;
     }
     .entry-header {
@@ -62,43 +62,44 @@
       justify-content: space-between;
       align-items: baseline;
       font-weight: 700;
-      font-size: 8.5pt;
+      font-size: 8.3pt;
     }
     .entry-sub {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       font-style: italic;
-      font-size: 8pt;
+      font-size: 7.8pt;
       color: #475569;
-      margin-bottom: 2px;
+      margin-bottom: 1px;
     }
     .project-header {
       display: flex;
       justify-content: space-between;
+      align-items: baseline;
       font-weight: 700;
-      font-size: 8.5pt;
+      font-size: 8.3pt;
     }
     .project-tech {
       font-style: italic;
-      font-size: 7.8pt;
+      font-size: 7.6pt;
       color: #0369a1;
       margin-bottom: 1px;
     }
     ul {
-      margin-left: 14px;
-      margin-bottom: 2px;
+      margin-left: 13px;
+      margin-bottom: 1.5px;
     }
     li {
-      margin-bottom: 1px;
-      font-size: 8.2pt;
-      line-height: 1.24;
+      margin-bottom: 0.8px;
+      font-size: 8pt;
+      line-height: 1.21;
       text-align: justify;
     }
     .skills-grid p {
-      font-size: 8.2pt;
-      margin-bottom: 1.5px;
-      line-height: 1.24;
+      font-size: 8pt;
+      margin-bottom: 1px;
+      line-height: 1.22;
     }
     .skills-grid strong {
       color: #0f172a;
@@ -133,17 +134,17 @@
 
   <!-- SUMMARY -->
   <div class="section-title">Professional Summary</div>
-  <p style="font-size: 8.2pt; text-align: justify; line-height: 1.25;">
-    AI Engineer with hands-on startup experience designing and deploying <strong>Agentic AI applications, Agent Harnesses, and LLM workflows</strong> at Tanglobus. Proficient in <strong>LangGraph, LangChain, Model Context Protocol (MCP) tool integration, Observability (LangSmith/Langfuse), and LLM Evaluation (Evals)</strong> frameworks. Proven track record building tool-enabled agents with state checkpointing, error-handling middleware, and human-in-the-loop approvals.
+  <p style="font-size: 8pt; text-align: justify; line-height: 1.23;">
+    AI Engineer with hands-on startup experience designing and deploying <strong>Agentic AI applications, Agent Execution Harnesses, and LLM workflows</strong> at Tanglobus. Core expertise in <strong>LangGraph, LangChain, Model Context Protocol (MCP) tool integration, FastAPI, AI Observability (LangSmith/Langfuse), and LLM Evaluation (Evals)</strong>. Proven track record engineering production agents with tool execution loops, state checkpointing, error-recovery middleware, and human-in-the-loop validation.
   </p>
 
   <!-- TECHNICAL SKILLS -->
   <div class="section-title">Technical Skills</div>
   <div class="skills-grid">
     <p><strong>Agentic AI & Frameworks:</strong> LangGraph, LangChain, DeepAgents, Agent Harness Development, State Management, Checkpointing, Multi-Agent Orchestration, Human-in-the-Loop (HITL)</p>
-    <p><strong>Protocols & Tools Integration:</strong> Model Context Protocol (MCP) Servers & Clients, Structured Tool Calling, Tool Discovery, API Tooling, Context Management</p>
+    <p><strong>Protocols & Tool Integration:</strong> Model Context Protocol (MCP) Servers & Clients, Structured Tool Calling, Tool Discovery, API Tooling, Context Management</p>
     <p><strong>LLM Engineering & Observability:</strong> Prompt Engineering, Structured Outputs (Pydantic), Function Calling, RAG, Tracing (LangSmith, Langfuse, OpenTelemetry), LLM-as-a-Judge Evals</p>
-    <p><strong>Programming & Backend:</strong> Python (Asyncio, OOP), FastAPI, SQL (MySQL, PostgreSQL), Scikit-Learn, Pandas, NumPy, Git, GitHub, REST APIs</p>
+    <p><strong>Backend, Databases & DevOps:</strong> Python (Asyncio, OOP), FastAPI, SQL (PostgreSQL, MySQL), Alembic, Docker, Git, GitHub, REST APIs, JSON Schema</p>
   </div>
 
   <!-- EXPERIENCE -->
@@ -157,19 +158,32 @@
     <span>Pune, India</span>
   </div>
   <ul>
-    <li>Architected and developed core <strong>Agentic AI workflows and Agent Execution Harnesses</strong> for the enterprise <strong>APS (Automated Processing System) Application</strong> using Python, LangGraph, and LangChain.</li>
-    <li>Engineered custom agent middleware for <strong>tool execution loops, automated retries, error recovery</strong>, dynamic context management, and <strong>human-in-the-loop approval gates</strong> for mission-critical business decisions.</li>
-    <li>Implemented <strong>Model Context Protocol (MCP) tool integrations</strong> and REST API clients, allowing agents to reliably discover tools, execute structured queries across relational databases, and process unstructured documents.</li>
+    <li>Architected and developed core <strong>Agentic AI workflows and Agent Execution Harnesses</strong> for the enterprise <strong>APS (Automated Project System) Platform</strong> using Python, FastAPI, LangGraph, and LangChain.</li>
+    <li>Engineered custom agent middleware for <strong>tool execution loops, automated retries, error recovery</strong>, dynamic context management, and <strong>human-in-the-loop approval gates</strong> for critical construction and legal milestones.</li>
+    <li>Implemented <strong>Model Context Protocol (MCP) tool integrations</strong> and REST API clients, allowing agents to discover tools, execute structured queries across PostgreSQL, and process unstructured engineering documents.</li>
     <li>Integrated end-to-end <strong>AI Observability (LangSmith / Langfuse)</strong> to trace multi-step agent reasoning paths, monitor token consumption, track execution latency, and eliminate tool calling bottlenecks.</li>
-    <li>Built automated <strong>LLM Evaluation (Evals) suites</strong> featuring ground-truth benchmark datasets and LLM-as-a-Judge to measure tool selection precision, task completion rates, and reduce hallucinations.</li>
+    <li>Built automated <strong>LLM Evaluation (Evals) suites</strong> featuring ground-truth benchmark datasets and LLM-as-a-Judge to measure tool selection precision, task completion rates, and eliminate hallucinations.</li>
   </ul>
 
-  <!-- PROJECTS -->
+  <!-- KEY PROJECTS -->
   <div class="section-title">Key Projects</div>
 
   <div>
     <div class="project-header">
-      <span>LinkedIn Job Copilot AI (Agentic Browser Harness & Automation)</span>
+      <span>Tanglobus-ASP: Multi-Agent Architectural & Workflow Reasoning Engine</span>
+      <span>Oct 2026</span>
+    </div>
+    <div class="project-tech">Python, FastAPI, Google Gemini LLM, LangChain, Pydantic, PostgreSQL, Docker, Pytest</div>
+    <ul>
+      <li>Engineered an agentic AI reasoning engine for residential architectural projects, featuring role-based context serialization (client vs. staff) and dynamic prompt routing across multiple domain modules.</li>
+      <li>Implemented structured tool calling and domain solvers for automated 3D spatial planning, BOQ/cost estimation, construction timeline scheduling, and multi-modal photorealistic AI rendering.</li>
+      <li>Designed robust fallback mechanisms and comprehensive test suites (<code>pytest</code>) verifying context isolation, tool execution accuracy, and prompt evaluation benchmarks.</li>
+    </ul>
+  </div>
+
+  <div style="margin-top: 1.5px;">
+    <div class="project-header">
+      <span>LinkedIn Job Copilot AI: Agentic Browser Assistant & DOM Harness</span>
       <span>Oct 2026</span>
     </div>
     <div class="project-tech">Python, JavaScript, Chrome Manifest V3, DOM Tool Calling, LLM API, State Management</div>
@@ -180,26 +194,14 @@
     </ul>
   </div>
 
-  <div style="margin-top: 2px;">
+  <div style="margin-top: 1.5px;">
     <div class="project-header">
       <span>AI-Powered Multi-Domain Recommendation & Evaluation System</span>
       <span>Apr 2026</span>
     </div>
     <div class="project-tech">Python, Machine Learning, NLP, Scikit-Learn, Pandas, NumPy, Structured Evaluation</div>
     <ul>
-      <li>Developed an AI-driven decision engine mapping user attributes to multi-domain career paths using supervised learning and text vectorization.</li>
-      <li>Designed validation datasets and scoring metrics (precision, recall, F1) to benchmark classification performance and improve model generalization.</li>
-    </ul>
-  </div>
-
-  <div style="margin-top: 2px;">
-    <div class="project-header">
-      <span>Uber Business Data Intelligence Pipeline</span>
-      <span>Mar 2025</span>
-    </div>
-    <div class="project-tech">Python, Pandas, Matplotlib, Seaborn, SQL (MySQL), Exploratory Data Analysis</div>
-    <ul>
-      <li>Engineered an end-to-end data processing and analytics pipeline evaluating large-scale ride demand metrics, bottleneck trends, and dynamic pricing patterns to generate actionable business intelligence.</li>
+      <li>Developed an AI-driven decision engine mapping user attributes to multi-domain career paths using supervised learning and text vectorization, evaluated against custom precision/recall benchmarks.</li>
     </ul>
   </div>
 
@@ -216,9 +218,9 @@
 
   <!-- CERTIFICATIONS & HIGHLIGHTS -->
   <div class="section-title">Certifications & Achievements</div>
-  <p style="font-size: 8.2pt; line-height: 1.25;">
+  <p style="font-size: 8pt; line-height: 1.22;">
     <strong>Certifications:</strong> Application Development Internship Credential | AI & Machine Learning Specialization<br>
-    <strong>Core Strengths:</strong> Tool-enabled Agent Design, Agent State & Checkpointing, LLM Tracing & Reliability, Clean Code Architecture
+    <strong>Core Competencies:</strong> Tool-enabled Agent Design, Agent State & Checkpointing, LLM Tracing & Reliability, Clean Code Architecture
   </p>
 
 </body>
